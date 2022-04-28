@@ -12,7 +12,8 @@
         <activity android:name=".presentation.artist.ArtistActivity"></activity>
         <activity android:name=".presentation.tvshow.TvShowActivity" />
         <activity android:name=".presentation.movie.MovieActivity" />
-        <activity android:name=".presentation.HomeActivity">
+        <activity android:name=".presentation.HomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

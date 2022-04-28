@@ -8,7 +8,8 @@ import com.skz.tmdbclient.domain.usecase.UpdateTvShowUseCase
 class TvShowViewModelFactory(private val getTvShowUseCase: GetTvShowUseCase,
                              private val updateTvShowUseCase: UpdateTvShowUseCase
 ) : ViewModelProvider.Factory {
-    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+    @SuppressWarnings("unchecked")
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return TvShowViewModel(getTvShowUseCase,updateTvShowUseCase) as T
     }
 }
