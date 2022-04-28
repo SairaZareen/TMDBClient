@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.HomeActivity">
+
+    <Button
+        android:id="@+id/movieButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Movie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <Button
+        android:id="@+id/tvShowButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/btn_rounded"
+        android:text="TV Shows"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/movieButton"
+        app:layout_constraintTop_toBottomOf="@+id/movieButton"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <Button
+        android:id="@+id/artistButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Artists"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvShowButton"
+        app:layout_constraintTop_toBottomOf="@+id/tvShowButton"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <ImageView
+        android:id="@+id/movie_image"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/movieButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/movies" />
+
+    <ImageView
+        android:id="@+id/artist_image"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/artistButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvShow_image"
+        app:srcCompat="@drawable/artist" />
+
+    <ImageView
+        android:id="@+id/tvShow_image"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvShowButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/movie_image"
+        app:layout_constraintTop_toBottomOf="@+id/movie_image"
+        app:srcCompat="@drawable/tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
