@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.skz.tmdbclient.domain.usecase.GetMoviesUseCase
 import com.skz.tmdbclient.domain.usecase.UpdateMoviesUseCase
+import dagger.Provides
 
 class MovieViewModelFactory(
     private val getMoviesUseCase : GetMoviesUseCase,
