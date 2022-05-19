@@ -16,3 +16,6 @@ Some features I have implemented are:-
 - HttpLoggingInterceptor
 
 syedasairazareen@gmail.com
+
+![Phone Screenshot 7](https://user-images.githubusercontent.com/86887298/169203986-57e8b423-f49e-4e45-ac01-4664e1b7cc20.jpg)
+
