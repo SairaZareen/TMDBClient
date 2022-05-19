@@ -17,5 +17,7 @@ Some features I have implemented are:-
 
 syedasairazareen@gmail.com
 
-![Phone Screenshot 7](https://user-images.githubusercontent.com/86887298/169203986-57e8b423-f49e-4e45-ac01-4664e1b7cc20.jpg)
+![Phone Screenshot 7](https://user-images.githubusercontent.com/86887298/169204450-a2bef2e6-faf3-4227-9868-3e26e77f7243.jpg) ![Phone Screenshot 7](https://user-images.githubusercontent.com/86887298/169204520-2b746a7b-173b-40b5-8309-2ebc2961afe5.jpg)
+
+
 
